@@ -9,7 +9,7 @@ import App from './App'
 
 createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename="/react-quiz">
       <Routes>
       <Route path='/' element={<App/>} />
       <Route path='/ReactQuiz' element={<ReactQuiz />}/>
